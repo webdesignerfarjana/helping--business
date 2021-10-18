@@ -1,0 +1,455 @@
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../font/Roboto-Medium.ttf);
+}@font-face {
+    font-family: SourceSansPro-Black;
+    src: url(../font/SourceSansPro-Black.ttf);
+}@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../font/SourceSansPro-Bold.ttf);
+}@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../font/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-SemiBold;
+    src: url(../font/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+    font-family:SourceSansPro-BoldItalic;
+    src: url(../font/SourceSansPro-BoldItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Light;
+}
+html{
+    font-size: 10px;
+}
+img{
+    max-width: 100%;
+}
+.customBtn{
+    font-family: Roboto-Medium;
+}
+
+
+
+/*--top section start--------*/
+
+.menu ul li{
+    margin: 0rem 1.6rem;
+}
+.menu ul li:last-child{
+    margin-right: 0rem;
+}
+.menu ul li a{
+    font-family: Roboto-Medium;
+    font-size: 2rem;
+    color: #fff !important;
+}
+
+.bannerText{
+    padding: 12rem 16rem 25rem 16rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.bannerText h1{
+    font-size: 4.8rem;
+    font-family:SourceSansPro-Bold;
+}
+.bannerText p{
+    font-size: 1.6rem;
+    padding: 5rem 15.2rem;
+}
+.bannerBtn a{
+    border: 1px solid #fb414e;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 0px 1rem;
+}
+.bannerBtn a:nth-child(1){
+    background: #fb414e;
+    padding: 1rem 3rem;
+}
+#top{
+    background-image: url(img/banar.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.top-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+}
+/*--top section end--------*/
+/*--service section start--------*/
+.serviceShort-area{
+    margin-top: -7rem;
+    position: relative;
+   
+}
+.serviceShort-item{
+    background-color: #fb414e;
+    padding: 2rem 2rem 2rem 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.serviceShort-item h5{
+    margin-top: 3.5rem;
+    font-family: Roboto-Medium;
+    font-size: 2rem;
+    
+}
+.serviceShort-item p{
+    font-size: 1.6rem;
+    
+}
+.serviceShort-item i{
+    font-size: 4rem;
+}
+.serviceShort-item h5::after{
+    content: "";
+    width: 5rem;
+    height: .2rem;
+    display: block;
+    position: relative;
+    background-color: #fff;
+    margin: 2.5rem 0rem;
+}
+.item2{
+    background-color: #202b30;
+}
+/*--service section end--------*/
+/*--businessPlan Start--------*/
+#businessPlan{
+    margin: 6rem;
+    background-color: #202b30;
+}
+
+.businessPlan-area{
+    padding: 7rem 3rem;
+}
+.businessPlanContent{
+    color: #fff;
+   
+}
+.businessPlanContent h2{
+    font-size: 4rem;
+    font-family: SourceSansPro-Bold;
+}
+.businessPlanContent p{
+    margin: 5rem 0rem;
+    font-size: 1.6rem;
+}
+.businessPlanContent a{
+    border: .1rem solid #fff;
+    padding: 1rem 3rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+businessPlanImage{
+    text-align: center;
+}
+
+/*---------businessPlan end--------*/
+/*---------------service start-------*/
+#service{
+    margin: 10rem 6rem 5rem 6rem;
+    background-color: #f8f8f8;
+    color: #1f1f1f;
+    padding: 10rem 3rem;
+}
+#service h6{
+    font-family: SourceSansPro-SemiBold;
+    font-size: 2rem;
+}
+#service p{
+    color: #6f6f6f;
+    font-size: 1.4rem;
+}
+.serLeft1{
+    margin-bottom: 5.2rem;
+    padding-right: 3rem;
+}
+.serLeft2{
+    padding-right: 3rem;
+}
+.serright{
+    padding-right: 5rem;
+}
+.serright h2{
+    font-family: SourceSansPro-SemiBold;
+   margin-bottom: 3rem;
+    font-size: 4rem;
+}
+/*----------------service end--------*/
+/*----------------owlMix start-------*/
+#owlMix{
+    margin: 5rem 6rem 5rem 6rem;
+    text-align: center;
+}
+
+.owlMixMenu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0rem 2.5rem 0rem 0rem;
+}
+.owlMixMenu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6f6f6f;
+    font-family: SourceSansPro-Regular;
+    font-size: 1.6rem;
+}
+.imageArea img{
+    margin-top: 1rem;
+}
+/*----------------owlMix end--------*/
+/*----------------clients start--------*/
+#clients{
+    margin: 5rem 0rem;
+}
+.clientsleft h2{
+    font-family: SourceSansPro-Bold;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.clientsleft p{
+    margin: 3rem 0rem 5rem 0rem;
+    font-size: 1.6rem;
+    color: #6f6f6f;
+}
+.clientsleft a{
+    border: .1rem solid #000;
+    padding: 1rem 3rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.6rem;
+    
+}
+.top-overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.clientsRight{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+   
+}
+.clientsRight img{
+    
+}
+.playIcon i{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 4rem;
+    padding: 3rem 3.2rem;
+    border: .2rem solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*----------------clients end--------*/
+/*----------------handcraftstart--------*/
+#handcraft{
+    margin: 10rem 6rem 5rem 6rem;
+    background-image: url(img/hand1.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem 0rem;
+    color: #000;
+    position: relative;
+   
+}
+.two{
+    background-color: rgba(225, 225, 225, 0.7); 
+}
+.handcraftTop{
+    position: relative;
+}
+.handcraftTop h2{
+    font-family: SourceSansPro-Bold;
+    font-size: 4rem;
+    font-weight: 600;
+   
+}
+.handcraftTop p{
+    margin: 5rem 0rem;
+    font-size: 1.6rem ;
+    
+}
+.handcraftBottom{
+    position: relative;
+}
+.handcraftBottom i{
+    font-size: 4rem;
+    color: rgb(207, 95, 129);
+}
+.handcraftBottom h5{
+    font-family: SourceSansPro-Regular;
+    margin: 1.5rem 0rem;
+    font-size: 2rem;
+}
+.handcraftBottom p{
+    font-size: 1.6rem;
+}
+/*----------------clients end--------*/
+/*----------------contactContent start--------*/
+#contact{
+    margin: 10rem 5rem 10rem 4rem;
+}
+
+.contactContent{
+    text-align: right;
+    padding-left: 10rem;
+}
+.contactContent h2{
+    font-family: SourceSansPro-Bold;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.contactContent p{
+    margin: 5rem 0rem;
+    font-size: 1.4rem;
+}
+.contactForm{
+    margin-left: 5rem;
+    margin-top: 2.8rem;
+    
+}
+.contactForm input, .contactForm select, .contactForm textarea{
+    border-radius: 0;
+    border-color: #000;
+    font-size: 1.4rem;
+}
+.contactForm button{
+    position: absolute;
+    width: 77%;
+    left: 16%;
+    background-color:#fb414e;
+    border-radius: 0;
+    border-color: #fb414e;
+    font-size: 1.6rem;
+    margin-top: 8rem;
+    color: #fff;
+}
+.contactForm button:hover{
+    color: #fff;
+}
+
+/*---------------contactContent end--------*/
+/*---------------footer start--------*/
+#footer{
+    background-color: #202b30;
+    color: #fff;
+    padding: 8rem 0rem;
+   
+}
+.social ul{
+    padding-left: 0rem;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0rem 2.5rem 0rem 0rem;
+}
+.social ul li a i{
+    text-decoration: none;
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background-color: #fb414e;
+    font-size: 1.6rem;
+    border: .1rem solid #fb414e;
+    border-radius: 50%;
+   
+}
+.footerMenu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0rem 2rem 0rem 0rem;
+}
+.footerMenu ul li:nth-last-child(1){
+    margin-right: 0rem;
+}
+.footerMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: Roboto-Medium;
+}
+.footerContact{
+    margin:8rem 0rem;
+}
+.footerContact p{
+    font-size: 1.6rem;
+    font-family: Roboto-Medium;
+}
+.footerContact p:nth-child(2){
+    color: #b5b5b5;
+    font-family: Roboto-light;
+}
+.footerRight{
+    text-align: right;
+}
+.footerSubscribe{
+    margin: 8rem 0rem;
+}
+.footerSubscribe button{
+    background-color: #fb414e;
+    font-size: 1.4rem;
+    border-radius: 0;
+    border-color: #fb414e;
+    color: #fff;
+}
+.footerSubscribe button:hover{
+    color: #fff;
+}
+.footerSubscribe p{
+    font-size: 1.6rem;
+    font-family: Roboto-Medium;
+}
+.footerCopy p{
+    color: #686868;
+    font-size: 1.4rem;
+}
+/*----------------footer end--------*/

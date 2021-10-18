@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1400px) {
+   
+    #handcraft{
+      padding: 10rem 6rem 5rem 6rem;
+  }
+  .contactForm button{
+    margin-top: 1.5rem;
+    width: 76%;
+    
+}
+}
+  @media only screen and (max-width: 1200px) {
+    
+    .bannerText{
+        padding: 10rem 8rem 8rem 10rem;
+    }
+    .bannerText h1{
+        font-size: 4rem;
+       
+    }
+    .bannerText p{
+         padding: 3rem 12.2rem;
+    }
+    .serviceShort-area{
+      margin-top: -4rem;
+     
+  }
+  .serright{
+    padding-right: 1rem;
+}
+  .businessPlanContent h2{
+    font-size: 4rem;
+}
+
+.clientsleft h2{
+  font-size: 4rem;
+  font-weight: 600;
+}
+#handcraft{
+  padding: 10rem 6rem 5rem 6rem;
+}
+.handcraftTop h2{
+  font-size: 4rem;
+}
+.contactContent h2{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.contactForm button{
+  width: 77%;
+  left: 17%;
+  
+}
+.contactContent p{
+  margin: 1rem 0rem;
+  font-size: 1.4rem;
+}
+.footerMenu ul li a {
+  
+  font-size: 1.5rem;
+  
+}
+  }
+  @media only screen and (max-width: 992px) {
+  
+    .bannerText{
+        padding: 3rem 5rem 5rem 3rem;
+        
+    }
+    .bannerText h1{
+        font-size: 4rem;
+       
+    }
+    .bannerText p{
+         padding: 3rem 12.2rem;
+    }
+    .serviceShort-area{
+      margin-top: -3rem;
+    }
+    .businessPlanContent h2{
+      font-size: 3rem;
+  }
+  #service h6{
+    font-size: 1.3rem;
+}
+.serright h2{
+  padding-right: 0rem;
+}
+.clientsleft h2{
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.clientsleft a{
+  margin-bottom: 10rem;
+}
+.handcraftTop h2{
+  font-size: 2.5rem;
+  }
+  #handcraft{
+    padding: 8rem 5rem 4rem 5rem;
+  }
+  .handcraftBottom h5{
+    margin: 1.3rem 0rem;
+    font-size: 1.6rem;
+}
+.contactContent h2{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.contactForm button{
+    margin-top: 5rem;
+    width: 77%;
+    left: 15%;
+    
+}
+.contactContent p{
+  margin: 1rem 0rem;
+  font-size: 1.6rem;
+}
+.footerMenu ul li{
+  
+  margin: 0rem .5rem 0rem 0rem;
+}
+.serright h2{
+ 
+  font-size: 2.5rem;
+}
+
+}
+  @media only screen and (max-width: 768px) {
+  
+    .bannerText{
+        padding: 2.5rem 4rem 4rem 2.5rem;
+    }
+    .bannerText h1{
+        font-size: 3rem;
+       
+    }
+    .bannerText p{
+        
+        padding: 2.5rem 7.2rem;
+    }
+    .serviceShort-area{
+      margin-top: -2rem;
+      
+  }
+  .businessPlanContent h2{
+    font-size: 3rem;
+}
+.other img{
+  width: 47rem;
+ margin-top: 3rem;
+}
+.contactForm button{
+  margin-top: 1rem;
+  width: 73%;
+    left: 16%;
+}
+  }
+  @media only screen and (max-width: 576px) {
+    
+    .bannerText{
+        padding: 2.3rem 3.5rem 3.5rem 2.3rem;
+        
+    }
+    .bannerText h1{
+        font-size: 2.7rem;
+       
+    }
+    .bannerText p{
+        
+        padding: 2.4rem 6.5rem;
+    }
+    .serviceShort-area{
+      margin-top: -1.5rem;
+      position: relative;
+  }
+  .businessPlanContent h2{
+    font-size: 2.5rem;
+}
+.other img{
+  width: 47rem;
+ margin-top: 3rem;
+}
+  }
+  @media only screen and (max-width: 500px) {
+  
+    .bannerText{
+        padding: 2rem 2.5rem 2.5rem 2rem;
+        
+    }
+    .bannerText h1{
+        font-size: 2.5rem;
+       
+    }
+    .bannerText p{
+       
+        padding: 1.5rem 6.2rem;
+    }
+    .serviceShort-area{
+      margin-top: -1rem;
+    }
+    .businessPlanContent h2{
+      font-size: 2.5rem;
+  }
+  .other img{
+    width: 47rem;
+   margin-top: 3rem;
+}
+  }
+  
+    
+    
